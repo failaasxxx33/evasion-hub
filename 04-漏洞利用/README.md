@@ -30,5 +30,10 @@ http://github.com/c0ny1/chunked-coding-converter
 # 0x05 利用WAF白名单缺陷
 https://github.com/TheKingOfDuck/burpFakeIP
 
+# 0x06 利用XFF头绕过WAF
+```
+案例：伪造XFF为目标单位外网IP来绕过龙御的云WAF
+```
+
 # 参考链接
 https://forum.butian.net/share/3639【HW 中如何利用 WAF 缺陷进行绕过】
