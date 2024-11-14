@@ -6,7 +6,6 @@ https://www.yuanrenxue.cn/app-crawl/android-7-capture-data.html
 绕过SSL双向校验抓取Soul App的数据包  
 https://blog.csdn.net/qq_38316655/article/details/104176882
 
-
 一些APP渗透测试时的小tips  
 https://mp.weixin.qq.com/s/IDv2ERO54TdDgvAcvx7FYQ
 ```
@@ -18,6 +17,8 @@ https://mp.weixin.qq.com/s/IDv2ERO54TdDgvAcvx7FYQ
 
 root检测和绕过方案
 ```
+## 记某app使用autodecoder插件绕过加密数据包+重放防护
+https://mp.weixin.qq.com/s/v77kfoRcP9Jo7939402Ykg  
 
 # 小程序
 小程序自动化渗透  
