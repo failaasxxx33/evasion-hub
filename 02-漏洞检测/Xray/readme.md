@@ -1,5 +1,16 @@
+# 高级版破解
+```
+xray v1.8.4版本的破解可通过修改日期，不过之后版本的破解用此方式则无效
+xray v1.9.3破解版，下载自：微信公众号--小阿辉谈安全
+xray v1.9.4破解版，下载自：https://github.com/NHPT/Xray_Cracked
+```
+
 # 修改配置文件
 ```
+在配置文件config.yaml中取消对政府、教育等目标的漏扫限制（搜索mitm）
+
+如果想让浏览器走xray的话，需要将ca.crt导入到火狐和chrome的根证书颁发机构
+
 修改worker数量，parallel: 100
 
 plugins部分
