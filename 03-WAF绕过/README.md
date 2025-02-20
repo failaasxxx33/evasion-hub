@@ -35,5 +35,11 @@ https://github.com/TheKingOfDuck/burpFakeIP
 案例：伪造XFF为目标单位外网IP来绕过龙御的云WAF
 ```
 
+# 0x07 瑞数WAF绕过
+```
+https://github.com/wjlin0/riverPass
+https://github.com/R0A1NG/Botgate_bypass
+```
+
 # 参考链接
 https://forum.butian.net/share/3639【HW 中如何利用 WAF 缺陷进行绕过】
