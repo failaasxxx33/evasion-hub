@@ -41,5 +41,10 @@ https://github.com/wjlin0/riverPass
 https://github.com/R0A1NG/Botgate_bypass
 ```
 
+# 工具
+```
+https://github.com/leveryd/x-waf
+```
+
 # 参考链接
 https://forum.butian.net/share/3639【HW 中如何利用 WAF 缺陷进行绕过】
