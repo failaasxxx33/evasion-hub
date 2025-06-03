@@ -54,7 +54,7 @@ nuclei.exe -validate -t template.yaml
 -c, -concurrency int               maximum number of templates to be executed in parallel (default 25)
 ```
 
-# 04-Getshell
+# 04-漏洞利用
 ```
 https://github.com/swisskyrepo/PayloadsAllTheThings
 
@@ -81,8 +81,12 @@ https://github.com/swisskyrepo/PayloadsAllTheThings
         windows下echo "bbb">3.txt时，会将双引号带入文件内容，linux下echo "bbb">3.txt时，不会将双引号带入文件内容。
     04、echo写入失败，可尝试base64编码
 
+0x02 拿到SQL注入的口子
+    01、如果可以执行操作系统命令，想要写webshell，但碰到中文字符，可以通过16进制编码
+    参考：
+    https://mp.weixin.qq.com/s/5wIqAeMW1IveoxU2sveMfA
 
-0x02 webshell免杀
+0x03 webshell免杀
     https://github.com/AntSwordProject/antSword
     https://github.com/rebeyond/Behinder
     https://github.com/BeichenDream/Godzilla
@@ -95,14 +99,14 @@ https://github.com/swisskyrepo/PayloadsAllTheThings
     https://github.com/czz1233/GBByPass
     https://github.com/AabyssZG/WebShell-Bypass-Guide/tree/main
 
-0x03 webshell绕过disable_functions执行命令
+0x04 webshell绕过disable_functions执行命令
     https://github.com/mm0r1/exploits/tree/master/php-filter-bypass
 
 
-0x04 webshell下过360执行命令
+0x05 webshell下过360执行命令
     https://mp.weixin.qq.com/s/OGwo1zoN1LS3aYalZ_PePw
 
-0x05 针对php标签的WAF绕过
+0x06 针对php标签的WAF绕过
     # 写法1 标准写法
     <?php echo date('Y-m-d h:m:s');?>
 
@@ -115,11 +119,11 @@ https://github.com/swisskyrepo/PayloadsAllTheThings
     # 写法4 长标签写法
     <script language="php"> echo 1; </script>
 
-0x06 瑞数动态waf绕过
+0x07 瑞数动态waf绕过
     https://github.com/wjlin0/riverPass
     https://github.com/R0A1NG/Botgate_bypass
 
-0x07 owasp top 10漏洞WAF绕过
+0x08 owasp top 10漏洞WAF绕过
     https://github.com/leveryd/x-waf
 ```
 
