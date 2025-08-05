@@ -3,8 +3,14 @@
 【某师傅造的仿真环境，从GetShell到提权root】https://mp.weixin.qq.com/s/LK8zfWlz0s3v93sIY9DztQ
 ```
 
+全球国家及地区IP地址段  
+http://ipblock.chacuo.net/  
+https://tools.ipip.net/as.php  
+
 # 02-资产收集
 ```
+https://lovebear.top/info/cn/index.html
+
 目标公司 -> 通过天眼查查询父子公司 -> 通过天眼查查询供应链公司
 
 0x01 子域名收集（通过公司根域名收集子域名）：
